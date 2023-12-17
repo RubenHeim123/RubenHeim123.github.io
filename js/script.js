@@ -8,11 +8,11 @@ menuIcon.onclick = () => {
 };
 
 // show form message
-let form = document.getElementsByTagName("form")[0];
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-  alert("Form Submitted!");
-});
+// let form = document.getElementsByTagName("form")[0];
+// form.addEventListener("submit", (e) => {
+//   e.preventDefault();
+//   alert("Form Submitted!");
+// });
 
 // scroll sections
 let sections = document.querySelectorAll("section");
