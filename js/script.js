@@ -40,10 +40,6 @@ window.onscroll = () => {
       // active sections for animation on scroll
       sec.classList.add("show-animate");
     }
-    // if want to use animation that repeats on scroll use this
-    else {
-      sec.classList.remove("show-animate");
-    }
   });
   let header = document.querySelector("header");
 

@@ -419,6 +419,11 @@ span {
   font-size: 1.6rem;
   margin: 0.5rem 0;
 }
+.education-content .content ul li {
+  font-size: 1.6rem;
+  margin: 0.5rem 0;
+  margin-left: 2rem;
+}
 
 .services {
   min-height: auto;
@@ -891,6 +896,19 @@ section:nth-child(odd) .animate.scroll,
     padding: 0 4%;
   }
 
+  .services {
+    padding-bottom: 7rem;
+  }
+
+  .portfolio {
+    padding-bottom: 7rem;
+  }
+
+  .contact {
+    min-height: auto;
+    padding-bottom: 7rem;
+  }
+
   .footer {
     padding: 2rem 4%;
   }
@@ -958,6 +976,24 @@ section:nth-child(odd) .animate.scroll,
     pointer-events: none;
     background: var(--bg-color);
     opacity: 0.6;
+  }
+
+  .services h2 {
+    margin-bottom: 3rem;
+  }
+
+  .portfolio h2 {
+    margin-bottom: 3rem;
+  }
+
+  .portfolio .portfolio-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 617px) {
+  .portfolio .portfolio-container {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
